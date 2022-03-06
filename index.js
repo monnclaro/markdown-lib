@@ -34,12 +34,6 @@ async function pegaArquivo(caminhoDoArquivo) {
   }   
 }
 
-//pegaArquivo('./arquivos/texto1.md');
-
-function jones(name){
-  return name;
-}
-
 module.exports = { pegaArquivo, jones }
 
 //function pegaArquivo(caminhoDoArquivo){
