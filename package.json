@@ -1,0 +1,17 @@
+{
+  "name": "primeira-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cli": "node cli.js ./files/texto1.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "node-fetch": "^3.2.1"
+  }
+}
