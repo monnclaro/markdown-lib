@@ -1,5 +1,5 @@
-const pegaArquivo = require('./index')
-const validaURLs = require('./http-validacao')
+const pegaArquivo = require('./index');
+const validaURLs = require('./http-validacao');
 
 const caminho = process.argv;
 
