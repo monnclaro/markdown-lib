@@ -34,23 +34,4 @@ async function pegaArquivo(caminhoDoArquivo) {
   }   
 }
 
-module.exports = { pegaArquivo, jones }
-
-//function pegaArquivo(caminhoDoArquivo){
-//    const encoding = 'UTF-8';
-//    fs.promises
-//    .readFile(caminhoDoArquivo, encoding)
-//    .then((texto) => console.log(texto))
-//    .catch((erro) => trataErro(erro))
-//}
-    
-
-//function pegaArquivo(caminhoDoArquivo){
-//    const encoding = 'UTF-8';
-//    fs.readFile(caminhoDoArquivo, encoding, (erro, texto) => {
-//       if (erro){
-//            trataErro(erro)
-//        }
-//        console.log(texto);
-//   })
-//}
+module.exports = pegaArquivo 
